@@ -5,7 +5,7 @@
 /**
  * @author Kier Borromeo (srph)
  * @link https://github.com/srph
- * @link https://twitter.com/@_srph
+ * @link https://twitter.com/_srph
  * @license MIT
  * @copyright 2015
  *
