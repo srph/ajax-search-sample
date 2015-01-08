@@ -118,12 +118,16 @@
           // Request type
           type: 'GET',
 
+          // No need for this since our API / PHP File / Server
+          // returns its response as `application/json``` already.
+          //
+          // But in any case:
           // We type in 'json' as data Type to transform
           // (obviously) the type of the response.
           // In case you forgot to include this option,
           // the first argument (response) in the `success`
           // function below will be a string instead of JSON
-          dataType: 'json',
+          /* dataType: 'json', */
 
           // This happens if our request to the server is successful
           success: function(response) {

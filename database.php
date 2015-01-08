@@ -90,6 +90,7 @@ $phonebook = [
 
 $input = isset($_GET['search']) ? $_GET['search']: '';
 
+header('Content-Type: application/json');
 // Echo out a JSON response
 echo json_encode( search($phonebook, $input) );
 
