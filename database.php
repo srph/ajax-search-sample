@@ -79,12 +79,12 @@ class Entry {
  * Our "phonebook" database
  */
 $phonebook = [
-	new Entry('Kier Borromeo', '696-9696', '1420 Prince David Condominium', 'pogi.jpg'),
-	new Entry('Jealian Menor', '871-1452', '231 California St., Tagaytay, US', 'ganda.jpg'),
-	new Entry('Mark Penaranda', '696-9696', '1420 Prince David Condominium', '_pangit.jpg'),
-	new Entry('Brian Bodollo', '696-69696', '1420 Prince David Condominium', '_ultra_pangit.jpg'),
-	new Entry('JC Ricaro', '872-4213.', '1420 Prince David Condominium', 'fag.jpg'),
-	new Entry('Kirby Borromeo', '691-1234', '1420 Prince David Condominium', '_super_pangit.jpg'),
+	new Entry('Kier Borromeo', '696-9696', '1420 Prince David Condominium', 'super-pogi.jpg'),
+	new Entry('Jealian Menor', '871-1452', '231 California St., Tagaytay, US', 'mahal.jpg'),
+	new Entry('Mark Penaranda', '696-9696', '1420 Prince David Condominium', 'pangit.jpg'),
+	new Entry('Brian Bodollo', '696-69696', '1420 Prince David Condominium', 'pangit.jpg'),
+	new Entry('JC Ricaro', '872-4213.', '1420 Prince David Condominium', 'pangit.jpg'),
+	new Entry('Kirby Borromeo', '691-1234', '1420 Prince David Condominium', 'pangit.jpg'),
 ];
 
 

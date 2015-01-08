@@ -20,6 +20,30 @@
   <style>
     .container {
       width: 768px; /* We don't really need that much space */
+      margin-top: 25px;
+      margin-bottom: 25px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .search-form {
+      margin-bottom: 50px;
+    }
+
+    .line {
+      height: 2px;
+      width: 50px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    img {
+      float: left;
+      margin-right: 10px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
   </style>
 </head>
@@ -158,10 +182,11 @@
       function createEntryTemplate(data) {
         return $(
           '<div style="margin-bottom: 25px;">' +
-            '<img src="images/' + data.avatar + '" />' +
+            '<img src="images/' + data.avatar + '" width="64" height="64" style="border-radius: 50%;" />' +
             '<h3>' + data.name + '</h3>' +
             '<h4>' + data.number + '</h4>' +
             '<h6>' + data.address + '</h6>' +
+            '<div class="line"></div>' +
           '</div>'
         );
       }
