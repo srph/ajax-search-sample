@@ -17,7 +17,7 @@ PHP ```5.4~``` and a webserver, that's it.
 Clone to your machine
 
 ```bash
-$ git clone
+$ git clone https://github.com/srph/basic-phonebook-ajax.git
 ```
 
 If you're feeling lazy, you may run PHP's built-in webserver (```SAPI```):
