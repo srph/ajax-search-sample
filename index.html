@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>&lt;SRPH/Kier&gt;'s Phonebook</title>
+
+  <style>
+    .container {
+      width: 768px; /* We don't really need that much space */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input type="text" name="search">
+  </div>
+
+  <script>
+    // Here we invoke an `IIFE`
+    +function($) {
+      // We prefix the variable with `$` ONLY
+      // because it's just a symbol thing to let
+      // you know it's a fucking element. But really,
+      // any variable will work.
+      var $phonebook = $('.phonebook-container');
+      var $entry;
+
+      function loadPhonebook(input) {
+        $.ajax({
+          url: 'database.php',
+          // Adds a query parameter (?key=value&key2=value)
+          params: { 'search': input },
+          type: 'GET',
+          success: function(response) {
+            var phonebook = response.data.data;
+
+            // First, we check if our database returned
+            // any result.
+            if ( !phonebook.length ) {
+              // If no results, let's remove whatever
+              // is in the phonebook container, and replace
+              // it with a message
+              var message = 'No results for ' + input;
+              $phonebook.html('<h1>' + message + '</h1>');
+              return; // To stop the whole thing
+            }
+
+            // Remove whatever is in the phonebook container
+            $phonebook.html('');
+
+            // @see createEntryTemplate
+            phonebook.forEach(function(entry, index) {
+              var template = createEntryTemplate(entry);
+              $phonebook.append( template );
+            });
+          },
+          error: function() {
+            alert('An error has occured. Please try again.. Refreshing');
+            window.location.reload();
+          }
+        })
+      }
+
+      function createEntryTemplate(data) {
+        return (
+          '<div style="margin-bottom: 25px;">' +
+            '<img src="images/' + data.avatar + '" />' +
+            '<h3>' + data.name + '</h3>' +
+            '<h4>' + data.number + '</h4>' +
+            '<h6>' + data.address + '</h6>'
+          '</div>'
+        );
+      }
+    }(jQuery);
+  </script>
+</body>
+</html>
