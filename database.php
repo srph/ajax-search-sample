@@ -87,8 +87,10 @@ $phonebook = [
 	new Entry('Kirby Borromeo', '691-1234', '1420 Prince David Condominium', '_super_pangit.jpg'),
 ];
 
-// Echo out a JSON response
+
 $input = isset($_GET['search']) ? $_GET['search']: '';
+
+// Echo out a JSON response
 echo json_encode( search($phonebook, $input) );
 
 /**
