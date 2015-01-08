@@ -23,7 +23,7 @@
  * A model for entries.
  *
  * This could have been done with `array`,
- * but I felt that `object`s are better DTOs instead of `array`s.
+ * but I felt that `object`s are better DTOs / models instead of `array`s.
  * 
  * Array:
  * ['name' => 'Kier', 'number' => 'Kier', 'address' => '69', 'avatar' => 'pogi.jpg']
