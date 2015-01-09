@@ -102,6 +102,9 @@ $input = isset($_GET['search']) ? $_GET['search']: '';
 header('Content-Type: application/json');
 
 // Echo out a JSON response
+// 
+// json_encode transforms / parses our PHP stuff (array, objects, etc..)
+// to proper JSON.
 echo json_encode( search($phonebook, $input) );
 
 /**
