@@ -1,8 +1,8 @@
-# basic-phonebook-ajax
+# phonebook-ng-pogi
 
 [![Author](https://img.shields.io/badge/author-srph-blue.svg?style=flat)](https://github.com/srph)
 
-An example of AJAX search (with PHP), serves as a guide to newbies.
+An sample app implementing AJAX search (with PHP), serves as a guide to newbies.
 
 You may learn from the annotated source.
 
@@ -66,7 +66,7 @@ On the other note: Not only the AJAX-processing thing is tedious, if your system
 
 I wrote this thing for a friend in need, thanks to him. Not the best guide out there, but I hope newcomers could learn a thing or two from it.
 
-*basic-phonebook-ajax** © 2014+, Kier Borromeo (srph). Released under the [MIT] License.<br>
+*phonebook-ng-pogi** © 2014+, Kier Borromeo (srph). Released under the [MIT] License.<br>
 
 > [srph.github.io](http://srph.github.io) &nbsp;&middot;&nbsp;
 > GitHub [@srph](https://github.com/srph) &nbsp;&middot;&nbsp;
