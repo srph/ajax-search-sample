@@ -57,6 +57,13 @@
 
     <div class="phonebook-container">
     </div>
+
+    <footer>
+      <a href="https://github.com/srph/phonebook-ng-pogi"><em>Phonebook ng Pogi</em></a> by
+      <a href="https://srph.github.io"><strong>Kier Borromeo</strong> (<strong>@srph</strong>)</a>.
+      <a href="https://github.com/srph"><small> @srph (Github) </small></a> |
+      <a href="https://twitter.com/_srph"><small> @_srph (Twitter) </small></a>
+    </footer>
   </div>
 
   <!-- Don't forget to include jQuery, hah! -->
