@@ -1,6 +1,6 @@
 # basic-phonebook-ajax
 
-[https://img.shields.io/badge/author-srph-blue.svg?style=flat](https://github.com/srph)
+[![Author](https://img.shields.io/badge/author-srph-blue.svg?style=flat)](https://github.com/srph)
 
 An example of AJAX search (with PHP), serves as a guide to newbies.
 
