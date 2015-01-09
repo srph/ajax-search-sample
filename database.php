@@ -91,7 +91,16 @@ $phonebook = [
 
 $input = isset($_GET['search']) ? $_GET['search']: '';
 
+// It tells the "request"-er that our response will be of mime-type `application/json`
+// Or in other words, we'll be responding with the mime-type `application/json`
+//
+// In case you forgot to include this option,
+// the first argument (response) in the `success`
+// function below will be a string instead of JSON
+// which will make our JavaScript code unable to fiddle with the
+// (phonebook (entries) | data) we'll be returning
 header('Content-Type: application/json');
+
 // Echo out a JSON response
 echo json_encode( search($phonebook, $input) );
 
