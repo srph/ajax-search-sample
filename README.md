@@ -6,7 +6,9 @@ An sample app implementing AJAX search (with PHP), serves as a guide to newbies.
 
 You may learn from the annotated source.
 
-## Preview
+## Preview / Demo
+
+Check the [demo](https://phonebook-ng-pogi.herokuapp.com/), deployed on Heroku.
 
 I don't like bombarding someone's screen with ***HQ*** screenies, so here's a set of links instead:
 
@@ -42,11 +44,9 @@ Then, access in your browser through ```localhost:8000```
 
 ## FAQ
 
-Q: **Why is there an html file and a php file?**
+Q: **Why is ```index.php``` is a ```PHP``` file when it does not do anything ```PHP``` related?
 
-Since our front-end / html / template does not do anything ```PHP``` related, I decided to simply leave it as it is.
-
-Our ```PHP``` file simply echoes out / returns a JSON response.
+Heroku seems to require index.php to detect the repository as a PHP repository, dear.
 
 Q: **Where do I start?**
 
