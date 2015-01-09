@@ -2,7 +2,7 @@
 
 [![Author](https://img.shields.io/badge/author-srph-blue.svg?style=flat)](https://github.com/srph)
 
-An sample app implementing AJAX search (with PHP), serves as a guide to newbies.
+A sample app implementing AJAX search (with PHP), serves as a guide to newbies.
 
 You may learn from the annotated source.
 
