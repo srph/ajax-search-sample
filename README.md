@@ -50,11 +50,13 @@ Heroku seems to require index.php to detect the repository as a PHP repository, 
 
 Q: **Where do I start?**
 
-You should start analyzing the ```PHP``` before you hop on to the ```HTML``` file.
+You should start analyzing ```database.php``` before you hop on to ```index.php``.
+
+If you're really, really new to AJAX (or maybe as well as PHP and jQuery), I wouldn't recommend learning with this thing. You might want to check out [SitePoint](www.sitepoint.com)'s [**AJAX with jQuery**](www.sitepoint.com/ajax-jquery/) first.
 
 Q: **Can I use MySQL?**
 
-Yes, you can always use any type of data storage, **really**. Just that I found simple array of data for an example to be enough.
+Yes, you can always use any type of data storage (text file, array, whatever the fuck you want, MySQL, MSSQL), **really**. Just that I found simple array of objects for an example to be enough.
 
 Q: **This AJAX thing seems to be tedious**
 
