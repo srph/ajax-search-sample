@@ -4,7 +4,7 @@
 
 A sample app implementing AJAX search (with PHP), serves as a guide to newbies.
 
-You may learn from the annotated source.
+This is not a tutorial, but you may learn from the annotated source.
 
 ## Preview / Demo
 
@@ -19,11 +19,15 @@ I don't like bombarding someone's screen with ***HQ*** screenies, so here's a se
 
 ## Running
 
+*Phonebook ng Pogi* is available through the [demo](https://phonebook-ng-pogi.herokuapp.com). However, if you are interested in the annotated source while running the app, so be it.
+
 ### Requirements:
 
 PHP ```5.4~``` and a webserver, that's it.
 
 \* If you're using Ubuntu, you may follow [DigitalOcean's tutorial to install the lamp stack on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu).
+
+\* If you're using OSX, you might want to check [php_osx](http://php-osx.liip.ch/).
 
 ### Installation
 
@@ -44,25 +48,25 @@ Then, access in your browser through ```localhost:8000```
 
 ## FAQ
 
-Q: **Why is ```index.php``` is a ```PHP``` file when it does not do anything ```PHP``` related?
+Q: **Why is ```index.php``` is a ```PHP``` file when it does not do anything ```PHP``` related?**
 
-Heroku seems to require index.php to detect the repository as a PHP repository, dear.
+[Heroku](https://heroku.com) *seems* to require ```index.php``` to detect the repository as a PHP repository.
 
 Q: **Where do I start?**
 
 You should start analyzing ```database.php``` before you hop on to ```index.php``.
 
-If you're really, really new to AJAX (or maybe as well as PHP and jQuery), I wouldn't recommend learning with this thing. You might want to check out [SitePoint](www.sitepoint.com)'s [**AJAX with jQuery**](www.sitepoint.com/ajax-jquery/) first.
+If you're really, really new to AJAX (or maybe as well as PHP and jQuery), Iwould certainly not recommend this *guide*. You might want to check out [SitePoint](www.sitepoint.com)'s [**AJAX with jQuery**](www.sitepoint.com/ajax-jquery/), or other guides first.
 
 Q: **Can I use MySQL?**
 
-Yes, you can always use any type of data storage (text file, array, whatever the fuck you want, MySQL, MSSQL), **really**. Just that I found simple array of objects for an example to be enough.
+Yes, you can always use any type of data storage (text file, array, MySQL, MSSQL), **really**. Just that I found simple array of objects for an example to be enough.
 
 Q: **This AJAX thing seems to be tedious**
 
-This could be simplified.
+Mind you that my implementation does not show the Best Pratices™, and is open for improvements.
 
-On the other note: Not only the AJAX-processing thing is tedious, if your system expands to something big, you need to start using a front-end framework, my friend.
+On the other note: AJAX itself is very simple. But the other stuff that comes (loading elements, replacing old data with the freshly fetched data, etc...) is the tedious part. If your system expands to something big, you should start using a front-end framework.
 
 ## Acknowledgement
 
