@@ -10,12 +10,11 @@ This is not a tutorial, but you may learn from the annotated source.
 
 Check the [demo](https://phonebook-ng-pogi.herokuapp.com/), deployed on Heroku.
 
-I don't like bombarding someone's screen with ***HQ*** screenies, so here's a set of links instead:
+[![Unfiltered](http://i.imgur.com/lma1EdI.png)](http://i.imgur.com/lma1EdI.png)
 
-[[JSON Response]](http://i.imgur.com/h9vG6Fx.png)
-[[Unfiltered]](http://i.imgur.com/lma1EdI.png)
-[[Filtered]](http://i.imgur.com/kA9e9Ps.png)
-[[Filtered | None Found]](http://i.imgur.com/nEnrepP.png)
+- [JSON Response](http://i.imgur.com/h9vG6Fx.png)
+- [Unfiltered](http://i.imgur.com/lma1EdI.png) (; README Preview)
+- [Filtered | None Found](http://i.imgur.com/nEnrepP.png)
 
 ## Running
 
